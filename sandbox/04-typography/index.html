@@ -6,25 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Typography</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            "sans": ["ui-sans-serif", "system-ui"],
+            "serif": ["ui-serif", "Georgia"],
+            "mono": ["ui-monospace", "SFMono-Regular"]
+          } 
+        }
+      }
+      </script>
   </head>
-  <body>
+  <body class="mb-20">
     <!-- Font Family -->
+    <div class="font-sans">Tailwind is Awesome</div>
+    <div class="font-serif">Tailwind is Awesome</div>
+    <div class="font-mono">Tailwind is Awesome</div>
 
     <!-- Font Size -->
 
+    <div class="text-xs">Tailwind is Awesome!</div>
+    <div class="text-xm">Tailwind is Awesome!</div>
+    <div class="text-lg">Tailwind is Awesome!</div>
+    <div class="text-xl">Tailwind is Awesome!</div>
+    <div class="text-2xl">Tailwind is Awesome!</div>
+    <div class="text-3xl">Tailwind is Awesome!</div>
+    <div class="text-4xl">Tailwind is Awesome!</div>
+    <div class="text-5xl">Tailwind is Awesome!</div>
+    <div class="text-6xl">Tailwind is Awesome!</div>
+    <div class="text-7xl">Tailwind is Awesome!</div>
+    <div class="text-8xl">Tailwind is Awesome!</div>
+    <div class="text-9xl">Tailwind is Awesome!</div>
+
     <!-- Font Weight -->
+<hr>
+    <div class="font-light">Tailwind is Awesome!</div>
+    <div class="font-normal">Tailwind is Awesome!</div>
+    <div class="font-medium">Tailwind is Awesome!</div>
+    <div class="font-semibold">Tailwind is Awesome!</div>
+    <div class="font-bold">Tailwind is Awesome!</div>
+
 
     <!-- Letter Spacing -->
+    <hr>
+    <div class="tracking-tight">Tailwind is Awesome!</div>
+    <div class="tracking-normal">Tailwind is Awesome</div>
+    <div class="tracking-wide">Tailwind is Awesome</div>
 
     <!-- Text Alignment -->
+    <div class="text-left">Tailwind is Awesome!</div>
+    <div class="text-center">Tailwind is Awesome!</div>
+    <div class="text-right">Tailwind is Awesome!</div>
+
 
     <!-- Text Decoration -->
 
-    <!-- Decoration Style -->
+    <div class="underline">Tailwind is Awesome!</div>
+    <div class="underline decoration-4">Tailwind is Awesome!</div>
 
+    <!-- Decoration Style -->
+        <div class="underline decoration-blue-400 decoration-4">Tailwind is Awesome!</div>
+        <div class="underline decoration-double">Tailwind is Awesom e!</div>
+        <div class="underline decoration-dotted">Tailwind is Awesome!</div>
+        <div class="underline decoration-dashed">Tailwind is Awesome!</div>
+        <div class="underline decoration-wavy">Tailwind is Awesome!</div>
     <!-- Decoration Offset -->
+    <div class="underline decoration-4 decoration-blue-400 underline-offset-8">
+      Tailwind is Awesome
+    </div>
 
     <!-- Text Transform -->
+    <p class="normal-case">Tailwind is awesome</p>
+    <p class="uppercase">Tailwind is awesome</p>
+    <p class="lowercase">Tailwind is awesome</p>
+    <p class="capitalize">Tailwind is awesome</p>
+
   </body>
 </html>
 
