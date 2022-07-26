@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Paytone+One&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Typography</title>
     <script>
       tailwind.config = {
         theme: {
           fontFamily: {
-            "sans": ["ui-sans-serif", "system-ui"],
+            "sans": ["Paytone One", "ui-sans-serif", "system-ui"],
             "serif": ["ui-serif", "Georgia"],
             "mono": ["ui-monospace", "SFMono-Regular"]
           } 
@@ -20,7 +25,7 @@
   </head>
   <body class="mb-20">
     <!-- Font Family -->
-    <div class="font-sans">Tailwind is Awesome</div>
+    <div class="font-sans">Tailwind is Awesome</div> <!-- Default -->
     <div class="font-serif">Tailwind is Awesome</div>
     <div class="font-mono">Tailwind is Awesome</div>
 
